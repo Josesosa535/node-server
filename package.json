@@ -1,12 +1,19 @@
 {
   "name": "lista-tareas",
   "version": "1.0.0",
-  "description": "",
+  "description": "¿Qué sucedió al usar async y await?\r Al utilizar async y await, las funciones asincrónicas se vuelven más fáciles de leer y escribir, ya que permiten escribir código asincrónico de forma más similar a código síncrono. Al usar el keyword await, el programa se detiene hasta que la promesa se resuelva o rechace, lo que simplifica el flujo de control y evita el anidamiento excesivo de callbacks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
